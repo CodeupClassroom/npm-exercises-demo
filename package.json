@@ -1,0 +1,19 @@
+{
+  "name": "npm-exercises-demo",
+  "version": "1.0.0",
+  "description": "Intro npm project for showing the use of npm, babel, webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanorsinger/npm-exercises-demo.git"
+  },
+  "author": "Ryan Orsinger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryanorsinger/npm-exercises-demo/issues"
+  },
+  "homepage": "https://github.com/ryanorsinger/npm-exercises-demo#readme"
+}
