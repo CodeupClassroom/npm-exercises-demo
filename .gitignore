@@ -1,0 +1,12 @@
+# OS related stuff
+.DS_Store
+Thumbs.db
+
+# Editor ignores
+*.iml
+.idea/
+
+# build ignores
+public/main.js
+*.map
+node_modules
