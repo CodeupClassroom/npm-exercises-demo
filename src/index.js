@@ -10,6 +10,9 @@ import {sum} from './math.js';
 
 import buildRowFrom from './row-builder.js';
 
+import sayHello from './say-hello.js';
+console.log(sayHello());
+
 console.log(sum(10, 8));
 
 // console.log(math.pow(2, 10)); // use the module as an object
@@ -19,9 +22,9 @@ console.log(math.sqrt(2));
 
 console.log(product);
 
-const sayHello = () => console.log("Hi, everybody!");
+// const sayHello = () => console.log("Hi, everybody!");
 
-sayHello();
+// sayHello();
 
 $("body").css("background-color", "salmon");
 
