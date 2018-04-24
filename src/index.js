@@ -11,6 +11,16 @@ import {sum} from './math.js';
 import buildRowFrom from './row-builder.js';
 
 import sayHello from './say-hello.js';
+
+import readAllPosts from './read-all-posts.js';
+import savePost from './save-post.js';
+//import createHTMLForPost from './create-html-for-post';
+
+savePost({title: 'Hello Ulysses'}).then(post => console.log(post));
+
+readAllPosts().then(posts => console.log(posts));
+
+
 console.log(sayHello());
 
 console.log(sum(10, 8));
